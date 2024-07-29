@@ -4,7 +4,7 @@ import os
 
 path = os.path.dirname(__file__)
 
-image_0001_url = "/mount/src/street-view/static/image_0023.jpg"
+image_0001_url = "/mount/src/street-view/static/alma.jpg"
 image_0002_url = "/mount/src/street-view/static/image_0024.jpg"
 
 streamlit_pannellum(
