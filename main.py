@@ -1,22 +1,10 @@
 import streamlit as st
 from streamlit_pannellum import streamlit_pannellum
-import os
-import subprocess
 
-# Démarrer le serveur HTTP pour les fichiers statiques
-server_script = os.path.join(os.path.dirname(__file__), 'serving_images.py')
-subprocess.Popen(["python", server_script])
+image_0001_url = "static/image_0001.jpg"
+image_0002_url = "static/image_0002.jpg"
 
-# URLs des images servies
-image_0001_url = "http://localhost:8000/image_0001.jpg"
-image_0002_url = "http://localhost:8000/image_0002.jpg"
-
-# Assurez-vous que les URLs des images sont correctes
-if not image_0001_url or not image_0002_url:
-    st.error("Les URLs des images ne sont pas correctes.")
-else:
-    # Configuration de Pannellum
-    streamlit_pannellum(
+streamlit_pannellum(
         config={
             "default": {
                 "firstScene": "first",
