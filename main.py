@@ -1,8 +1,8 @@
 import streamlit as st
 from streamlit_pannellum import streamlit_pannellum
 
-image_0001_url = "static/image_0001.jpg"
-image_0002_url = "static/image_0002.jpg"
+image_0001_url = "https://github.com/abdelwahab38/Street-view/blob/main/static/image_0001.jpg"
+image_0002_url = "https://github.com/abdelwahab38/Street-view/blob/main/static/image_0002.jpg"
 
 streamlit_pannellum(
         config={
