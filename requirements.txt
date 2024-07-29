@@ -1,1 +1,3 @@
-streamlit-pannellum
+juxtapose
+Pillow
+requests
