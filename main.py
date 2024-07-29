@@ -31,7 +31,7 @@ streamlit_pannellum(
         "second": {
           "title": "My second example",
           "type": "equirectangular",
-          "panorama": "https://github.com/abdelwahab38/Street-view/blob/main/static/alma.jpg",
+          "panorama": "/mount/src/street-view/static/alma.jpg",
           "autoLoad": True,
           "author": "always Me",
           "hotSpots": [
