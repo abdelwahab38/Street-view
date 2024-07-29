@@ -1,11 +1,4 @@
-import streamlit as st
 from streamlit_pannellum import streamlit_pannellum
-import os
-
-path = os.path.dirname(__file__)
-
-image_0001_url = "/mount/src/street-view/static/almaaa.jpg"
-image_0002_url = "/mount/src/street-view/static/image_0024.jpg"
 
 streamlit_pannellum(
         config={
@@ -16,7 +9,7 @@ streamlit_pannellum(
                 "first": {
                     "title": "My first example",
                     "type": "equirectangular",
-                    "panorama": image_0001_url,
+                    "panorama": "/mount/src/street-view/static/image_0023.jpg",
                     "autoLoad": True,
                     "author": "Me",
                     "hotSpots": [
@@ -38,7 +31,7 @@ streamlit_pannellum(
                 "second": {
                     "title": "My second example",
                     "type": "equirectangular",
-                    "panorama": image_0002_url,
+                    "panorama": "/mount/src/street-view/static/image_0024.jpg",
                     "autoLoad": True,
                     "author": "always Me",
                     "hotSpots": [
